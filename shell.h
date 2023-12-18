@@ -9,7 +9,7 @@
 #include <sys/wait.h>
 
 void promptdisplay(void);
-void print_message(const char *message);
+void print_message(const char *m);
 void commands(char *cmd, size_t size);
 void exec_cmds(const char *cmd);
 
